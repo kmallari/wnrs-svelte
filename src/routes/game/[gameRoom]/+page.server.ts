@@ -57,7 +57,7 @@ export const load = async ({ params }) => {
 
 	const questions = deck.questions.map((level) => shuffle(level, convertStringToNumbers(code)));
 
-	console.log({ questions });
+	// console.log({ questions });
 
 	return {
 		gameRoom,

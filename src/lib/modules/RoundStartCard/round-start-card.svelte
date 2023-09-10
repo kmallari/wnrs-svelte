@@ -20,7 +20,7 @@
 	<div class="flex h-full flex-col justify-between space-y-4">
 		<section class="space-y-4">
 			<h1 class="text-4xl font-bold">{levelInstruction.label.replace(' -', ':')}</h1>
-			<p class="text-sm leading-relaxed opacity-70">{levelInstruction.content}</p>
+			<p class="text-sm leading-relaxed">{levelInstruction.content}</p>
 		</section>
 		<Button theme={theme.button} on:click={nextCard}>Start Level</Button>
 	</div>

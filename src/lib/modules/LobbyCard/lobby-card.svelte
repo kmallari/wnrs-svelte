@@ -8,6 +8,7 @@
 	export let players: Array<string>;
 	export let playerName: string;
 	export let playerNameInLocalStorage: string | null;
+	export let cardMoveTrigger: boolean;
 
 	export let addPlayer: () => void;
 	export let removePlayer: () => void;
