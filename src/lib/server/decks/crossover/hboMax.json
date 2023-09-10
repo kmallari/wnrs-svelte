@@ -1,0 +1,45 @@
+{
+  "name": "WNRS x HBO Max",
+  "short_name": "HBO Max",
+  "crossover": "HBO Max",
+  "edition": "Inspired by HBO Original",
+  "players": "2",
+  "theme": "valentino",
+  "levels": [
+      "HBO Max"
+  ],
+  "isExpansion": false,
+  "backDesc": [
+    "We don't become our  best selves by ourselves.",
+    "#SoSheDid"
+  ],
+  "preview": [
+    "Issa and Molly on HBO Original Insecure. Julien and Zoya on Max Original Gossip Girl. The women of HBO Original Sex and the City.",
+    "Female friendships—onscreen and IRL—are often some of the most supportive, uplifting and even challenging relationships in our lives. They dare us to be our truest selves. They teach us to accept who we are. They're what make us believe in friendship soulmates.",
+    "This pack is inspired by some of our favorite femal friendships on HBO Max, and the different stages of their lives. No matter what chapter you and your friends are navigating, use these questions to get to know yourselves better, together.",
+    "Ready?",
+    "#SoSheDid"
+  ],
+  "questions": [[
+    "How has our friendship  changed you for the  better? <Euphoria>",
+    "What was the hardest truth  you had to face this year? <Insecure>",
+    "What have you achieved  today that your younger  self wouldn't believe? <Industry>",
+    "What am I most likely to  get arrested for? <The Flight Attendant>",
+    "Wild Card What do you need to hear  right now? Write it down and  tape it to your mirror.  Seriously, do it. <Insecure>",
+    "Imagine I just woke up from  a crazy night out. Where did I  end up? What did I do? What  do I regret? <The Flight Attendant>",
+    "How would you describe your  sex life in one word? <Sex and the City>",
+    "What is your most unlikely  friendship? What makes it work? <Hacks>",
+    "Who in your life feels healing  to be around? Who in your life  feels like the opposite? <I May Destroy You>",
+    "Have you ever had to  break up with a friend? <Insecure>",
+    "Are any of your  insecurities hurting  anyone else by  accident? <Insecure>",
+    "What used to hurt that  you can laugh at now?  Get specific. <Hacks>",
+    "What are you proudest  of yourself for saying  \"no\" to recently? <Euphoria>",
+    "What opinion would  you be most hesitant  to share online? <Hacks>",
+    "What's one small way you  could improve your relationship  with social media? Get specific. <Gossip Girl>",
+    "What am I most likely to  get fired for? Explain. <Industry>",
+    "What is the sexiest quality in  someone that isn't physical? <Sex and the City>",
+    "What teacher do you wish you  could thank today? Explain. <The Sex Lives of College Girls>",
+    "What does financial security  look like for you? Get specific. <Industry>",
+    "What do you wish you could tell  your high school self today? <Gossip Girl>"
+  ]]
+}

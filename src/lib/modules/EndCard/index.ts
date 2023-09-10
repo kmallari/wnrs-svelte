@@ -1,0 +1,1 @@
+export {default as EndCard} from './end-card.svelte';
