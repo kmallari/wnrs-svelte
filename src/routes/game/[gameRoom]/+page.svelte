@@ -9,6 +9,7 @@
   import type { GameRoom } from '$lib/types';
   import GameCard from '$lib/modules/GameCard/game-card.svelte';
   import RoundStartCard from '$lib/modules/RoundStartCard/round-start-card.svelte';
+  import {PUBLIC_API_URL} from "$env/static/public";
   export let data: PageData;
 
   let { gameRoom, deck, instruction } = data;
@@ -40,7 +41,8 @@
     const localRooms = JSON.parse(localStorage.getItem('namesInGames') || `{}`);
     playerNameInLocalStorage = localRooms[gameRoom.id] || null;
 
-    socket = new WebSocket(`ws://localhost:8080/ws/${gameRoom.id}`);
+    const ws = PUBLIC_API_URL.replace('https', 'wss');
+    socket = new WebSocket(`${ws}/ws/${gameRoom.id}`);
 
     socket.addEventListener('message', (event) => {
       const response = event.data;
