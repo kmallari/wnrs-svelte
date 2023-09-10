@@ -9,7 +9,7 @@
   import type { GameRoom } from '$lib/types';
   import GameCard from '$lib/modules/GameCard/game-card.svelte';
   import RoundStartCard from '$lib/modules/RoundStartCard/round-start-card.svelte';
-  import {PUBLIC_API_URL} from "$env/static/public";
+  import { PUBLIC_API_URL } from '$env/static/public';
   export let data: PageData;
 
   let { gameRoom, deck, instruction } = data;
@@ -109,11 +109,11 @@
       if (players.length === 0) return;
 
       const localRooms = JSON.parse(localStorage.getItem('namesInGames') || `{}`);
-      const playerNameInLocalStorage = localRooms[gameRoom.id] || null;
+      const localPlayerNameInLocalStorage = localRooms[gameRoom.id] || null;
       socket.send(
         JSON.stringify({
           type: 'remove_player',
-          data: playerNameInLocalStorage,
+          data: localPlayerNameInLocalStorage,
         }),
       );
       const prevGames = JSON.parse(localStorage.getItem('namesInGames') || '{}');
@@ -124,6 +124,7 @@
       };
 
       localStorage.setItem('namesInGames', JSON.stringify(newGames));
+      playerNameInLocalStorage = '';
     };
 
     startGame = () => {
